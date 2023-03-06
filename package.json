@@ -35,6 +35,7 @@
   },
   "dependencies": {
     "jotai": "^2.0.3",
+    "jotai-signal": "^0.8.1",
     "react": "experimental",
     "react-dom": "experimental"
   }

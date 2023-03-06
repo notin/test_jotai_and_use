@@ -2,13 +2,12 @@ import React from "react";
 import ReactDOM from "react-dom";
 
 import "./index.css";
+import Counter from "./components/Counter";
+import {atom} from "jotai";
 
+const countAtom = atom(0);
+export {countAtom};
 const App = () => (
-  <div className="container">
-    <div>Name: test_jotai_and_use</div>
-    <div>Framework: react</div>
-    <div>Language: TypeScript</div>
-    <div>CSS: Empty CSS</div>
-  </div>
+  <Counter />
 );
 ReactDOM.render(<App />, document.getElementById("app"));

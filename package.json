@@ -10,7 +10,8 @@
   },
   "dependencies": {
     "react": "experimental",
-    "react-dom": "experimental"
+    "react-dom": "experimental",
+    "whisper-node": "^0.1.5"
   },
   "devDependencies": {
     "@types/react": "^18.0.17",
